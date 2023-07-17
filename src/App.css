@@ -1,0 +1,84 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  /* padding-top: 3%;; */
+}
+
+.header {
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  /* height: 20%; */
+}
+
+.headerRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.headerItem {
+  width: 32%;
+  border: 3px solid rgb(122, 177, 235);
+  border-radius: 5px;
+  color: rgb(122, 177, 235);
+  font-weight: bolder;
+  height: 40px;
+  /* font-size: 18px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.headerItem:hover{
+  color: white;
+  background-color: rgb(122, 177, 235);
+}
+
+.headerItemMiddle {
+  margin: 0 2%;
+}
+
+.body {
+  height: 80%;
+  color: white;
+}
+
+.audioCard {
+  margin: 20px 30px;
+}
+
+.audioContainer {
+  height: 100%;
+  overflow: scroll;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .headerRow {
+    margin-right: 1%;
+  }
+
+  .audioContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    overflow: scroll;
+  }
+
+  .audioCard {
+    width: 50%;
+  }
+}

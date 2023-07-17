@@ -1,0 +1,24 @@
+.container {
+  height: 100%;
+  overflow: scroll;
+}
+
+.tcard {
+  margin: 30px 20px;
+  border: 1px solid #75f78c;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tcard {
+    width: 50%;
+    border: none;
+  }
+}
