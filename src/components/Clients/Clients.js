@@ -7,14 +7,13 @@ function importAllLogos(r) {
 
 const Clients = () => {
   const images = importAllLogos(require.context('../../icons/clientLogos/', false, /\.(png|jpe?g|svg)$/));
-  
   return(
     <div className='clientContainer'>
       {
         images.map((logo) => {
           return (
             <div className='ImageContainer'>
-              <img src={logo.default} alt="logo"/>
+              <img src={logo} alt="logo"/>
             </div>
           );
         })
