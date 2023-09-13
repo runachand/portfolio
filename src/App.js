@@ -27,6 +27,9 @@ import OriyaKidvoice from './audio/Oriya_KidVoiceSample_RunaChand.mp3';
 import OriyaIVR from './audio/Oriya_IVR_RunaChand.mp3';
 import OriyaSM from './audio/OriyaSM_Voice+BGM.mp3';
 
+import micImg from './icons/micMobile.jpg'
+import Samples from './components/Samples';
+
 const audioFiles = [
   {fileName: HindiTVCFunkyy, description: "Hindi TVC casual"},
   {fileName: HindiTVCslow, description: "Hindi TVC calm"},
@@ -53,24 +56,24 @@ const App = () => {
   const [currentTab, setCurrentTab] = useState('About');
 
   return (
-    <div className="App">
+    <div className="App" style={{backgroundImage: `url(${micImg})`, backgroundPosition: 'right'}}>
       <div className='header'>
         <div className='headerRow'>
           <div
             className='headerItem'
-            style={{ color: currentTab === 'About' ? 'white' : '' }}
+            style={{ backgroundColor: currentTab === 'About' ? 'purple' : '', color: 'white' }}
             onClick={() => setCurrentTab('About')}>
             About
           </div>
           <div
             className='headerItem headerItemMiddle'
-            style={{ color: currentTab === 'Work' ? 'white' : '' }}
+            style={{ backgroundColor: currentTab === 'Work' ? 'purple' : '', color: 'white' }}
             onClick={() => setCurrentTab('Work')}
             >Work
           </div>
           <div
             className='headerItem'
-            style={{ color: currentTab === 'Clients' ? 'white' : '' }}
+            style={{ backgroundColor: currentTab === 'Clients' ? 'purple' : '', color: 'white' }}
             onClick={() => setCurrentTab('Clients')}
             >Clients
           </div>
@@ -78,17 +81,17 @@ const App = () => {
         <div className='headerRow'>
           <div
             className='headerItem'
-            style={{ color: currentTab === 'Testimonials' ? 'white' : '' }}
+            style={{ backgroundColor: currentTab === 'Testimonials' ? 'purple' : '', color: 'white' }}
             onClick={() => setCurrentTab('Testimonials')}>
           Testimonials</div>
           <div
             className='headerItem headerItemMiddle'
-            style={{ color: currentTab === 'Sample' ? 'white' : '' }}
+            style={{ backgroundColor: currentTab === 'Sample' ? 'purple' : '', color:  'white' }}
             onClick={() => setCurrentTab('Sample')}>
           Sample</div>
           <div
             className='headerItem'
-            style={{ color: currentTab === 'Contact' ? 'white' : '' }}
+            style={{ backgroundColor: currentTab === 'Contact' ? 'purple' : '', color:  'white' }}
             onClick={() => setCurrentTab('Contact')}>
           Contact</div>
         </div>
@@ -98,43 +101,19 @@ const App = () => {
         {currentTab === 'Work' && <Fragment><Work /></Fragment>}
         {currentTab === 'Clients' && <Fragment><Clients /></Fragment>}
         {currentTab === 'Testimonials' && <Fragment><Testimonials /></Fragment>}
-        {currentTab === 'Sample' &&
-          <div className='audioContainer'>
-            <br />
-            {
-              audioFiles.map((file, index) => {
-                return(
-                  <>
-                    <div style={{ textAlign: 'center', fontWeight : 'bolder' }}>{file.description}</div>
-                    <div className='audioCard'>
-                      <ReactPlayer
-                        url={file.fileName}
-                        width="100%"
-                        height="50px"
-                        playing={false}
-                        controls={true}
-                      />
-                    </div>
-                    <br />
-                    <br />
-                  </>
-                );
-              })
-            }
-          </div>
-        }
+        {currentTab === 'Sample' && <Fragment><Samples /></Fragment>}
         {currentTab === 'Contact' &&
           <Fragment>
             <div className='audioContainer' style={{ textAlign: 'center' }}>
               <br/>
               <div style={{
-                fontSize: '24px', margin: '20px 30px', color: 'orange', fontFamily: 'Comic Sans MS'
+                fontSize: '24px', margin: '20px 30px', color: 'white'
               }}>Looking for voice artist for your next project?</div>
               <div style={{
-                fontSize: '24px', margin: '20px 30px', color: '#87ebb9', fontStyle: 'italic' 
+                fontSize: '24px', margin: '20px 30px', color: 'white'
               }}>Let's work together.</div>
               <div style={{
-                fontSize: '24px', margin: '20px 30px', color: 'coral', fontFamily: 'cursive'
+                fontSize: '24px', margin: '20px 30px', color: 'white'
               }}>Reach out to me and I will send you my best quote. </div>
               <div style={{
                 fontSize: '24px', margin: '20px 30px', color: 'chartreuse'

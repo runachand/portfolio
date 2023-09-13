@@ -1,0 +1,35 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.sampleContainer {
+  height: 100%;
+  overflow: scroll;
+}
+
+.socialMediaButtonGroup {
+  display: flex;
+  justify-content: center;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.audioFileContainer {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+@media only screen and (min-width: 768px) {
+  .sampleContainer {
+    box-sizing: border-box;
+    padding: 0 10vw;
+  }
+
+  .socialMediaButtonGroup {
+    padding-bottom: 50px;
+  }
+}

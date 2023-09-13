@@ -7,9 +7,20 @@
   }
 }
 
+.aboutContainer {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.socialMediaButtonGroup {
+  display: flex;
+  justify-content: center;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
 .socialMediaButton {
-  border: 2px solid rgb(75, 211, 209);
-  border-radius: 5px;
+  /* border: 2px solid rgb(75, 211, 209); */
+  /* border-radius: 5px; */
   width: 90%;
   margin-left: 5%;
   height: 40px;
@@ -22,7 +33,7 @@
   font-size: 20px;
   font-weight: bolder;
   text-decoration: none;
-  background-color: rgb(75, 211, 209);
+  /* background-color: rgb(75, 211, 209); */
   transition: opacity 2s linear;
   animation: 1s ease-out 0s 1 slideInFromLeft;
 }
@@ -36,21 +47,20 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 3%;
   animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 .profilePicture img {
-  height: 200px;
-  width: 200px;
-  border: 1px solid lightblue;
-  border-radius: 100px;
+  height: 250px;
+  width: 250px;
+  /* border: 1px solid lightblue; */
+  border-radius: 200px;
+  margin-top: 5px;
 }
 
 @media only screen and (min-width: 768px) {
   .aboutContainer {
     display: flex;
-    margin-top: 10%;
   }
 
   .picWrapper {
@@ -58,12 +68,16 @@ a {
   }
 
   .socialMediaButtonGroup {
-    width: 60%;
+    width: 100%;
   }
 
   .socialMediaButton {
     margin-left: 20%;
     width: 50%;
     cursor: pointer;
+  }
+
+  .rightSideDesktopView {
+    width: 60%;
   }
 }

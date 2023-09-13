@@ -5,9 +5,11 @@
 
 .tcard {
   margin: 30px 20px;
-  border: 1px solid #75f78c;
+  /* border: 1px solid #75f78c; */
+  background-color: antiquewhite;
   border-radius: 5px;
   padding: 10px;
+  color: black;
 }
 
 @media only screen and (min-width: 768px) {

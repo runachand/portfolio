@@ -17,9 +17,9 @@ const Testimonials = () => {
         testimonials.map((t, index) => {
           return(
             <div className='tcard'>
-              <span style={{ fontSize: '24px', color: '#75f78c' }}>"</span>
-              <span style={{ fontSize: '24px', color: '#75f78c' }}>{t.text}</span>
-              <span style={{ fontSize: '24px', color: '#75f78c' }}>"</span>
+              <span style={{ fontSize: '20px', color: 'black' }}>"</span>
+              <span style={{ fontSize: '20px', color: 'black' }}>{t.text}</span>
+              <span style={{ fontSize: '20px', color: 'black' }}>"</span>
               <div style={{ textAlign: 'right', fontStyle: 'italic' }}>- {t.name}, {t.country}</div>
               <div style={{ textAlign: 'right', fontStyle: 'italic' }}>{t.connection} review</div>
             </div>
