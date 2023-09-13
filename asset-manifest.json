@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3caccb05.css",
-    "main.js": "/portfolio/static/js/main.23f7c667.js",
+    "main.css": "/portfolio/static/css/main.bff4a045.css",
+    "main.js": "/portfolio/static/js/main.b12ae43e.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/OriyaSM_Voice+BGM.mp3": "/portfolio/static/media/OriyaSM_Voice+BGM.2f5985e40a24aa5c1ae5.mp3",
     "static/media/Oriya_Explainer_RunaChand.mp3": "/portfolio/static/media/Oriya_Explainer_RunaChand.9ec0b9f6f02e4cd0f183.mp3",
@@ -18,8 +18,9 @@
     "static/media/Hindi_KidAndCartoon_RunaChand.mp3": "/portfolio/static/media/Hindi_KidAndCartoon_RunaChand.7d5a804c21b3e5f1390a.mp3",
     "static/media/Eng_KidGameAdv_RunaChand.mp3": "/portfolio/static/media/Eng_KidGameAdv_RunaChand.81f9e63f313ca6447f82.mp3",
     "static/media/Oriya_IVR_RunaChand.mp3": "/portfolio/static/media/Oriya_IVR_RunaChand.2a9969722f621840c5fb.mp3",
-    "static/media/runa_portfolio.jpg": "/portfolio/static/media/runa_portfolio.6150b9b2006ab1507ae9.jpg",
+    "static/media/micMobile.jpg": "/portfolio/static/media/micMobile.bcff15b7dba047ef5498.jpg",
     "static/media/Oriya_KidVoiceSample_RunaChand.mp3": "/portfolio/static/media/Oriya_KidVoiceSample_RunaChand.b30a24de962e08e32a46.mp3",
+    "static/media/runa_portfolio.jpg": "/portfolio/static/media/runa_portfolio.dc58343bfa4bc48a4eef.jpg",
     "static/media/Oriya_Commercial_RunaChand.mp3": "/portfolio/static/media/Oriya_Commercial_RunaChand.d002eceec42ca72475b5.mp3",
     "static/media/Oriya_Documentary_RunaChand.mp3": "/portfolio/static/media/Oriya_Documentary_RunaChand.4a8265b7ef313a09e2df.mp3",
     "static/media/1.jpg": "/portfolio/static/media/1.8df7919cbcf50c6cd5c8.jpg",
@@ -38,12 +39,12 @@
     "static/media/Facebook-f_Logo-White-Logo.wine.svg": "/portfolio/static/media/Facebook-f_Logo-White-Logo.wine.4e567decd77cc339133d487316e81722.svg",
     "static/media/keyboard_double_arrow_left_black_24dp.svg": "/portfolio/static/media/keyboard_double_arrow_left_black_24dp.6e9f54101395fa1838a66d50eefedb00.svg",
     "static/media/keyboard_double_arrow_right_black_24dp.svg": "/portfolio/static/media/keyboard_double_arrow_right_black_24dp.982242549acff1474ffa8e95dbdbfb2d.svg",
-    "main.3caccb05.css.map": "/portfolio/static/css/main.3caccb05.css.map",
-    "main.23f7c667.js.map": "/portfolio/static/js/main.23f7c667.js.map",
+    "main.bff4a045.css.map": "/portfolio/static/css/main.bff4a045.css.map",
+    "main.b12ae43e.js.map": "/portfolio/static/js/main.b12ae43e.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3caccb05.css",
-    "static/js/main.23f7c667.js"
+    "static/css/main.bff4a045.css",
+    "static/js/main.b12ae43e.js"
   ]
 }
