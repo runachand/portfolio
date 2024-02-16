@@ -93,7 +93,7 @@ const App = () => {
             className='headerItem'
             style={{ backgroundColor: currentTab === 'Contact' ? 'purple' : '', color:  'white' }}
             onClick={() => setCurrentTab('Contact')}>
-          Contact</div>
+          Contact Me</div>
         </div>
       </div>
       <div className='body'>
