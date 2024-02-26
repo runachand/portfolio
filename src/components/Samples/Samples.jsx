@@ -9,11 +9,11 @@ import EngTVCslow from '../../audio/Eng_TVC_SlowCalm_RunaChand.mp3';
 import Enggamerole from '../../audio/Eng_KidGameRole_RunaChand.mp3';
 import Enggamead from '../../audio/Eng_KidGameAdv_RunaChand.mp3';
 import EngExplainer from '../../audio/Eng_Explainer_RunaChand.mp3';
-import HindiTVCFunkyy from '../../audio/Hindi_TVC_Funky_RunaChand.mp3';
 import HindiTVCslow from '../../audio/Hindi_TVC_SlowCalm_RunaChand.mp3';
 import Hindikidcartoon from '../../audio/Hindi_KidAndCartoon_RunaChand.mp3';
 import HindiVoiceassistant from '../../audio/Hindi_VoiceAssistant_RunaChand.mp3';
 import Hindiemotional from '../../audio/Hindi_Emotional_RunaChand.mp3';
+import HindiDoraemonNobita from '../../audio/Hindi_Doraemon-Nobita_RunaChand.mp3';
 import Oriyacommercial from '../../audio/Oriya_Commercial_RunaChand.mp3';
 import OriyaExplainer from '../../audio/Oriya_Explainer_RunaChand.mp3';
 import OriyaDocumentary from '../../audio/Oriya_Documentary_RunaChand.mp3';
@@ -25,11 +25,11 @@ const Samples = () => {
   const [currentTab, setCurrentTab] = useState('Hindi');
 
   const audioFilesHindi = [
-    { fileName: HindiTVCFunkyy, description: "Hindi TVC casual" },
     { fileName: HindiTVCslow, description: "Hindi TVC calm" },
     { fileName: Hindikidcartoon, description: "Hindi Kid Cartoon" },
     { fileName: HindiVoiceassistant, description: "Hindi Voice Assistant" },
     { fileName: Hindiemotional, description: "Hindi Poetry Emotional" },
+    { fileName: HindiDoraemonNobita, description: "Hindi Doraemon Nobita" },
   ];
   const audioFilesEnglish = [
     { fileName: EngTVCHershey, description: "Eng TVC Hershey" },
