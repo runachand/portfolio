@@ -6,51 +6,8 @@ import Work from './components/Work';
 import Clients from './components/Clients/Clients';
 import Testimonials from './components/Testimonials';
 
-import ReactPlayer from "react-player";
-
-import EngTVCHershey from './audio/Eng_TVC_Hershey_RunaChand.mp3';
-import Engkidcartoon from './audio/Eng_KidAndCartoon_RunaChand.mp3';
-import EngkidAdSweetypotamus from './audio/Eng_KidAd_SweetyPotamus.mp3';
-import EngTVCslow from './audio/Eng_TVC_SlowCalm_RunaChand.mp3';
-import Enggamerole from './audio/Eng_KidGameRole_RunaChand.mp3';
-import Enggamead from './audio/Eng_KidGameAdv_RunaChand.mp3';
-import EngExplainer from './audio/Eng_Explainer_RunaChand.mp3';
-import HindiTVCFunkyy from './audio/Hindi_TVC_Funky_RunaChand.mp3';
-import HindiTVCslow from './audio/Hindi_TVC_SlowCalm_RunaChand.mp3';
-import Hindikidcartoon from './audio/Hindi_KidAndCartoon_RunaChand.mp3';
-import HindiVoiceassistant from './audio/Hindi_VoiceAssistant_RunaChand.mp3';
-import Hindiemotional from './audio/Hindi_Emotional_RunaChand.mp3';
-import Oriyacommercial from './audio/Oriya_Commercial_RunaChand.mp3';
-import OriyaExplainer from './audio/Oriya_Explainer_RunaChand.mp3';
-import OriyaDocumentary from './audio/Oriya_Documentary_RunaChand.mp3';
-import OriyaKidvoice from './audio/Oriya_KidVoiceSample_RunaChand.mp3';
-import OriyaIVR from './audio/Oriya_IVR_RunaChand.mp3';
-import OriyaSM from './audio/OriyaSM_Voice+BGM.mp3';
-
 import micImg from './icons/micMobile.jpg'
 import Samples from './components/Samples';
-
-const audioFiles = [
-  {fileName: HindiTVCFunkyy, description: "Hindi TVC casual"},
-  {fileName: HindiTVCslow, description: "Hindi TVC calm"},
-  {fileName: Hindikidcartoon, description: "Hindi Kid Cartoon"},
-  {fileName: HindiVoiceassistant, description: "Hindi Voice Assistant"},
-  {fileName: Hindiemotional, description: "Hindi Poetry Emotional"},
-  {fileName: EngTVCHershey, description: "Eng TVC Hershey"},
-  {fileName: Engkidcartoon, description: "Eng Kid Cartoon"},
-  {fileName: EngkidAdSweetypotamus, description: "Eng Kid Ad Cartoon"},
-  {fileName: EngTVCslow, description: "Eng TVC Calm"},
-  {fileName: Enggamerole, description: "Eng Kid Game role"},
-  {fileName: Enggamead, description: "Eng Game Ad"},
-  {fileName: EngExplainer, description: "Eng Explainer"},
-  {fileName: Oriyacommercial, description: "Oriya commercial"},
-  {fileName: OriyaExplainer, description: "Oriya Explainer"},
-  {fileName: OriyaDocumentary, description: "Oriya Documentary"},
-  {fileName: OriyaKidvoice, description: "Oriya Kid voice"},
-  {fileName: OriyaIVR, description: "Oriya IVR"},
-  {fileName: OriyaSM, description: "Oriya Short Movie"},
-  
-];
 
 const App = () => {
   const [currentTab, setCurrentTab] = useState('About');
