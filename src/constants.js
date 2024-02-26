@@ -1,10 +1,14 @@
 export const youTubeVideoLinks = [
-"https://www.youtube.com/embed/6EA7Kb4X_o4",
-"https://www.youtube.com/embed/6XAucJmMZXs",
-"https://www.youtube.com/embed/zCyC7c6dlkE",
- "https://www.youtube.com/embed/EkDjHqUMMDs",
- "https://www.youtube.com/embed/VKgt7acOZ6M",
- "https://www.youtube.com/embed/e3twRmznPL4",
+  "https://www.youtube.com/embed/mXpLt7NEeWQ?si=1C4nS_sRtAAKx3Qf",
+  "https://www.youtube.com/embed/ou-ag0bDUXI?si=aCH9eePUPcQtKjEh",
+  "https://www.youtube.com/embed/LL94MJtkAho?si=xpXNkYBfLOnYgpjS",
+  "https://www.youtube.com/embed/-on570FNfmc?si=5IVXOTLkpclJY2vr",
+  "https://www.youtube.com/embed/Cymv4Zms5yA?si=hTOIfJHuoNeVM7bU",
+  "https://www.youtube.com/embed/96ohcyKoa4A?si=-ETWZqVZNzm6kR4A",
+  "https://www.youtube.com/embed/6qFY8JrfKeI?si=u4KjxJ7VoMg9ODT_",
+  "https://www.youtube.com/embed/uzD_s7_4gfk?si=ZIFnBK3j671fy1qo",
+  "https://www.youtube.com/embed/gWObTMbOZ8U?si=YrjWxIjASn8QOhbF",
+  "https://www.youtube.com/embed/tUuK9lbWdaw?si=-qj10LisPlkLfdYB"
 ];
 
 export const instagramLink = 'https://www.instagram.com/invites/contact/?i=ffdwzyklyyln&utm_content=esvw3yh';
