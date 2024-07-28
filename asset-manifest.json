@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bff4a045.css",
-    "main.js": "/portfolio/static/js/main.bcdcfb6e.js",
+    "main.js": "/portfolio/static/js/main.fcbccbba.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/OriyaSM_Voice+BGM.mp3": "/portfolio/static/media/OriyaSM_Voice+BGM.2f5985e40a24aa5c1ae5.mp3",
     "static/media/Oriya_Explainer_RunaChand.mp3": "/portfolio/static/media/Oriya_Explainer_RunaChand.9ec0b9f6f02e4cd0f183.mp3",
@@ -17,20 +17,25 @@
     "static/media/Hindi_KidAndCartoon_RunaChand.mp3": "/portfolio/static/media/Hindi_KidAndCartoon_RunaChand.7d5a804c21b3e5f1390a.mp3",
     "static/media/Eng_KidGameAdv_RunaChand.mp3": "/portfolio/static/media/Eng_KidGameAdv_RunaChand.81f9e63f313ca6447f82.mp3",
     "static/media/Oriya_IVR_RunaChand.mp3": "/portfolio/static/media/Oriya_IVR_RunaChand.2a9969722f621840c5fb.mp3",
+    "static/media/11.png": "/portfolio/static/media/11.73ef242fb13328a02ee2.png",
     "static/media/micMobile.jpg": "/portfolio/static/media/micMobile.bcff15b7dba047ef5498.jpg",
     "static/media/Oriya_KidVoiceSample_RunaChand.mp3": "/portfolio/static/media/Oriya_KidVoiceSample_RunaChand.b30a24de962e08e32a46.mp3",
     "static/media/Hindi_Doraemon-Nobita_RunaChand.mp3": "/portfolio/static/media/Hindi_Doraemon-Nobita_RunaChand.48670f437ce13ef8af27.mp3",
     "static/media/runa_portfolio.jpg": "/portfolio/static/media/runa_portfolio.dc58343bfa4bc48a4eef.jpg",
     "static/media/Oriya_Commercial_RunaChand.mp3": "/portfolio/static/media/Oriya_Commercial_RunaChand.d002eceec42ca72475b5.mp3",
     "static/media/Oriya_Documentary_RunaChand.mp3": "/portfolio/static/media/Oriya_Documentary_RunaChand.4a8265b7ef313a09e2df.mp3",
-    "static/media/1.jpg": "/portfolio/static/media/1.8df7919cbcf50c6cd5c8.jpg",
-    "static/media/10.png": "/portfolio/static/media/10.333b763598d49bf98006.png",
-    "static/media/2.png": "/portfolio/static/media/2.927918768ea56b3a21a2.png",
-    "static/media/4.png": "/portfolio/static/media/4.2a8996988f48b1ddc568.png",
-    "static/media/7.png": "/portfolio/static/media/7.66fce24eae29e115faae.png",
-    "static/media/6.png": "/portfolio/static/media/6.030f2551ff37b9bd7052.png",
-    "static/media/3.png": "/portfolio/static/media/3.d6f5c40e6e6390a28c3e.png",
-    "static/media/5.jpg": "/portfolio/static/media/5.72008d3ae2774a4e7be0.jpg",
+    "static/media/1.jpeg": "/portfolio/static/media/1.bf11fd396d17c71dce33.jpeg",
+    "static/media/13.png": "/portfolio/static/media/13.745cc442c6d8d0dc9780.png",
+    "static/media/1.png": "/portfolio/static/media/1.2a8996988f48b1ddc568.png",
+    "static/media/16.jpeg": "/portfolio/static/media/16.d6e7aed7a7f6ec2d4de7.jpeg",
+    "static/media/7.jpeg": "/portfolio/static/media/7.a7669d6a1e2ab61ae911.jpeg",
+    "static/media/14.jpeg": "/portfolio/static/media/14.5f1bc0c3a5d1c22913e5.jpeg",
+    "static/media/8.jpeg": "/portfolio/static/media/8.fce84a7c494f49d96bc9.jpeg",
+    "static/media/9.png": "/portfolio/static/media/9.66fce24eae29e115faae.png",
+    "static/media/3.png": "/portfolio/static/media/3.92e4ecf8b2dd48b56438.png",
+    "static/media/2.png": "/portfolio/static/media/2.4122bb23ca87d981ac82.png",
+    "static/media/4.jpg": "/portfolio/static/media/4.25fa3b6c94951400d6d5.jpg",
+    "static/media/10.jpeg": "/portfolio/static/media/10.14be27df4bfcd4ec590f.jpeg",
     "static/media/Instagram-Logo.wine.svg": "/portfolio/static/media/Instagram-Logo.wine.28edbae2fda9b1f76143638a327b864e.svg",
     "static/media/fiverr-1.svg": "/portfolio/static/media/fiverr-1.f4cc41e08659594eaae23f0cb85efe76.svg",
     "static/media/LinkedIn-Icon-Logo.wine.svg": "/portfolio/static/media/LinkedIn-Icon-Logo.wine.d58057e09b09bb0eab666d645ea24e3c.svg",
@@ -40,11 +45,11 @@
     "static/media/keyboard_double_arrow_left_black_24dp.svg": "/portfolio/static/media/keyboard_double_arrow_left_black_24dp.6e9f54101395fa1838a66d50eefedb00.svg",
     "static/media/keyboard_double_arrow_right_black_24dp.svg": "/portfolio/static/media/keyboard_double_arrow_right_black_24dp.982242549acff1474ffa8e95dbdbfb2d.svg",
     "main.bff4a045.css.map": "/portfolio/static/css/main.bff4a045.css.map",
-    "main.bcdcfb6e.js.map": "/portfolio/static/js/main.bcdcfb6e.js.map",
+    "main.fcbccbba.js.map": "/portfolio/static/js/main.fcbccbba.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bff4a045.css",
-    "static/js/main.bcdcfb6e.js"
+    "static/js/main.fcbccbba.js"
   ]
 }
