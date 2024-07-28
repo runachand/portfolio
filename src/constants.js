@@ -1,21 +1,31 @@
 export const youTubeVideoLinks = [
-  "https://www.youtube.com/embed/mXpLt7NEeWQ?si=1C4nS_sRtAAKx3Qf",
-  "https://www.youtube.com/embed/ou-ag0bDUXI?si=aCH9eePUPcQtKjEh",
-  "https://www.youtube.com/embed/LL94MJtkAho?si=xpXNkYBfLOnYgpjS",
-  "https://www.youtube.com/embed/-on570FNfmc?si=5IVXOTLkpclJY2vr",
-  "https://www.youtube.com/embed/Cymv4Zms5yA?si=hTOIfJHuoNeVM7bU",
-  "https://www.youtube.com/embed/96ohcyKoa4A?si=-ETWZqVZNzm6kR4A",
-  "https://www.youtube.com/embed/6qFY8JrfKeI?si=u4KjxJ7VoMg9ODT_",
-  "https://www.youtube.com/embed/uzD_s7_4gfk?si=ZIFnBK3j671fy1qo",
-  "https://www.youtube.com/embed/gWObTMbOZ8U?si=YrjWxIjASn8QOhbF",
-  "https://www.youtube.com/embed/tUuK9lbWdaw?si=-qj10LisPlkLfdYB"
+  "https://www.youtube.com/embed/mXpLt7NEeWQ?si=QRcbqe75CNvNku--",
+"https://www.youtube.com/embed/wk-H1GeWZO4?si=8tlmTRbRBhItLH0h",
+"https://www.youtube.com/embed/omrvD2-Wepk?si=W_GB82y477PhQ4Fo",
+"https://www.youtube.com/embed/_Guo_92rZ7I?si=IOEmGQ_892z4jQ6I",
+"https://www.youtube.com/embed/JX4InJ3oAaI?si=8OFpKYHhIz0JPs_6",
+"https://www.youtube.com/embed/qYoYJNoTAtA?si=ym2G8wHYn3ZnR1D7",
+"https://www.youtube.com/embed/ZvxPUmbE2zM?si=vODMvPasao1o0O8k",
+"https://www.youtube.com/embed/Cymv4Zms5yA?si=17XKg-0_5jxr_Ldt",
+"https://www.youtube.com/embed/ou-ag0bDUXI?si=xg8ZAkeWdteAAN9-",
+"https://www.youtube.com/embed/WHgmzSAmSaM?si=Bd7suY5wkQWnhPeM",
+"https://www.youtube.com/embed/6qFY8JrfKeI?si=Cl34NZlc0NdNjr7V",
+"https://www.youtube.com/embed/LL94MJtkAho?si=W71UidIW5J4KOXrt",
+"https://www.youtube.com/embed/tUuK9lbWdaw?si=3VRem9mSRi22pnIN",
+"https://www.youtube.com/embed/gWObTMbOZ8U?si=ayRhMEN7-iO4J8Bq",
+"https://www.youtube.com/embed/7VJYOE52aCA?si=kl42-svkLPEgwxnW",
+"https://www.youtube.com/embed/_eWCwj0q5ZE?si=zsWRl945dzdl9yM_",
+"https://www.youtube.com/embed/96ohcyKoa4A?si=LPfuhj0FaGI3nWLk",
+"https://www.youtube.com/embed/uzD_s7_4gfk?si=UD_NuAJB-Rbc8OAI",
+
+
 ];
 
-export const instagramLink = 'https://www.instagram.com/invites/contact/?i=ffdwzyklyyln&utm_content=esvw3yh';
+export const instagramLink = 'https://www.instagram.com/pumpkin_voice_?igsh=MXNpanc4bDNzZnJyMg==';
 export const linkedinLink = 'https://www.linkedin.com/in/runa-chand-528bb0192';
 export const facebookLink = 'https://www.facebook.com/profile.php?id=100009252376750';
-export const youtubeLink = 'https://youtube.com/channel/UCKwWElw6YyLmowirFszgRBg';
-export const fiverrLink = 'https://www.fiverr.com/s2/6a08ac48be';
+export const youtubeLink = 'https://www.youtube.com/channel/UCLwmf8MPNPC6FPa2ZjrLqlw';
+export const fiverrLink = 'https://www.fiverr.com/runa_chand_vo';
 
 export const testimonials = [
   {
@@ -49,45 +59,9 @@ export const testimonials = [
     connection: 'Fiverr'
   },
   {
-    text: 'Seller was very helpful, tried to give her best and order was completed in correct way.',
+    text: 'Runa was very helpful, tried to give her best and order was completed in correct way.',
     name: 'maarja_mannik',
     country: 'Estonia',
-    connection: 'Fiverr'
-  },
-  {
-    text: 'Very talented artist.',
-    name: 'flyingrobot',
-    country: 'India',
-    connection: 'Fiverr'
-  },
-  {
-    text: 'Great work! So happy with everything!',
-    name: 'evancopenbarger',
-    country: 'United States',
-    connection: 'Fiverr'
-  },
-  {
-    text: "It's been a great experience with her.she is been really professional and has been spot on with the requirements",
-    name: 'esper_ance',
-    country: 'India',
-    connection: 'Fiverr'
-  },
-  {
-    text: 'Great job beyond expectations!',
-    name: 'dangelguo',
-    country: 'United States',
-    connection: 'Fiverr'
-  },
-  {
-    text: 'Very Talented',
-    name: 'sepzone',
-    country: 'India',
-    connection: 'Fiverr'
-  },
-  {
-    text: 'it was amazing',
-    name: 'longle465',
-    country: 'United States',
     connection: 'Fiverr'
   }
 ];

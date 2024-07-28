@@ -38,9 +38,9 @@ const About = () => {
           color: "white"
         }}>Indian Voiceover and Dubbing Artist</div>
         <div style={{ fontWeight: '300', color: 'white', fontSize: '18px' }}>Hindi, Oriya (Odia), English</div>
-        <div style={{ fontWeight: '300', color: 'white', fontSize: '18px' }}>Adult Female and Kids Voice</div>
+        <div style={{ fontWeight: '300', color: 'white', fontSize: '18px' }}>Adult Female, Kid and Cartoon Voice</div>
         <div style={{ fontWeight: '300', color: 'white', padding: '20px', textAlign: 'justify' }}>
-          Versatile and experienced voice artist who has completed over 500 projects with all happy clients from 9+ countries all over the world. Feel free to scroll through the profile and get in touch if you like to have my voice for your upcoming projects.
+        With a robust portfolio boasting over 500 successful projects and delighted clients across 13 countries worldwide, I offer a wealth of experience as a seasoned voice artist. Take a moment to browse my profile, and don't hesitate to contact me if you'd like to enlist my voice for your upcoming project.
         </div>
       </div>
       <div className='rightSideDesktopView'>
