@@ -2,51 +2,71 @@ import React, { useState } from 'react';
 import './Samples.css';
 import ReactPlayer from "react-player";
 
-import EngTVCHershey from '../../audio/Eng_TVC_Hershey_RunaChand.mp3';
-import Engkidcartoon from '../../audio/Eng_KidAndCartoon_RunaChand.mp3';
-import EngkidAdSweetypotamus from '../../audio/Eng_KidAd_SweetyPotamus.mp3';
-import EngTVCslow from '../../audio/Eng_TVC_SlowCalm_RunaChand.mp3';
-import Enggamerole from '../../audio/Eng_KidGameRole_RunaChand.mp3';
-import Enggamead from '../../audio/Eng_KidGameAdv_RunaChand.mp3';
-import EngExplainer from '../../audio/Eng_Explainer_RunaChand.mp3';
-import HindiTVCslow from '../../audio/Hindi_TVC_SlowCalm_RunaChand.mp3';
-import Hindikidcartoon from '../../audio/Hindi_KidAndCartoon_RunaChand.mp3';
-import HindiVoiceassistant from '../../audio/Hindi_VoiceAssistant_RunaChand.mp3';
-import Hindiemotional from '../../audio/Hindi_Emotional_RunaChand.mp3';
-import HindiDoraemonNobita from '../../audio/Hindi_Doraemon-Nobita_RunaChand.mp3';
-import Oriyacommercial from '../../audio/Oriya_Commercial_RunaChand.mp3';
-import OriyaExplainer from '../../audio/Oriya_Explainer_RunaChand.mp3';
-import OriyaDocumentary from '../../audio/Oriya_Documentary_RunaChand.mp3';
-import OriyaKidvoice from '../../audio/Oriya_KidVoiceSample_RunaChand.mp3';
-import OriyaIVR from '../../audio/Oriya_IVR_RunaChand.mp3';
-import OriyaSM from '../../audio/OriyaSM_Voice+BGM.mp3';
+// import english
+import Eng_DigitalAd_RunaChand from '../../audio/Eng_DigitalAd_RunaChand.wav';
+import Eng_KidGameAdv_RunaChand from '../../audio/Eng_KidGameAdv_RunaChand.mp3';
+import Eng_KidGameRole_RunaChand from '../../audio/Eng_KidGameRole_RunaChand.wav';
+import Eng_SeriousVoice_RunaChand from '../../audio/Eng_SeriousVoice_RunaChand.wav';
+import Eng_TVC_Hershey_RunaChand from '../../audio/Eng_TVC_Hershey_RunaChand.mp3';
+import Eng_TVC_SlowCalm_RunaChand from '../../audio/Eng_TVC_SlowCalm_RunaChand.mp3';
+import English_KidBoy_Conversational from '../../audio/English_KidBoy_Conversational.wav';
+
+
+
+
+
+
+// import hindi files
+import Hindi_Ad_Licious_RunaChand from '../../audio/Hindi_Ad_Licious_RunaChand.wav';
+import Hindi_Doraemon_Nobita_RunaChand from '../../audio/Hindi_Doraemon-Nobita_RunaChand.mp3';
+import Hindi_Emotional_RunaChand from '../../audio/Hindi_Emotional_RunaChand.mp3';
+import Hindi_KidConversational_RunaChand from '../../audio/Hindi_KidConversational_RunaChand.mp3';
+import Hindi_DigitalAd_RunaChand from '../../audio/Hindi_DigitalAd_RunaChand.mp3';
+import Hindi_kidVoice_Bobo_RunaChand from '../../audio/Hindi_kidVoice_Bobo_RunaChand.mp3';
+import Hindi_TVC_SlowCalm_RunaChand from '../../audio/Hindi_TVC_SlowCalm_RunaChand.mp3';
+
+
+
+
+
+
+// import odia files
+
+import Oriya_Commercial_RunaChand from '../../audio/Oriya_Commercial_RunaChand.mp3';
+import Oriya_Documentary_RunaChand from '../../audio/Oriya_Documentary_RunaChand.mp3';
+import Oriya_Explainer_RunaChand from '../../audio/Oriya_Explainer_RunaChand.mp3';
+import Oriya_KidVoiceSample_RunaChand from '../../audio/Oriya_KidVoiceSample_RunaChand.mp3';
+
+
+
+
 
 const Samples = () => {
   const [currentTab, setCurrentTab] = useState('Hindi');
 
   const audioFilesHindi = [
-    { fileName: HindiTVCslow, description: "Hindi TVC calm" },
-    { fileName: Hindikidcartoon, description: "Hindi Kid Cartoon" },
-    { fileName: HindiVoiceassistant, description: "Hindi Voice Assistant" },
-    { fileName: Hindiemotional, description: "Hindi Poetry Emotional" },
-    { fileName: HindiDoraemonNobita, description: "Hindi Doraemon Nobita" },
-  ];
+    { fileName: Hindi_Ad_Licious_RunaChand, description: "Hindi Ad" },
+    { fileName: Hindi_Doraemon_Nobita_RunaChand, description: "Hindi Doraemon Nobita" },
+    { fileName: Hindi_Emotional_RunaChand, description: "Hindi Emotional Voice" },
+    { fileName: Hindi_KidConversational_RunaChand, description: "Hindi Kid Conversational" },
+    { fileName: Hindi_DigitalAd_RunaChand, description: "Hindi Digital Ad" },
+    { fileName: Hindi_kidVoice_Bobo_RunaChand, description: "Hindi kid Voice Bobo" },
+    { fileName: Hindi_TVC_SlowCalm_RunaChand, description: "Hindi TVC Calm Voice" },
+  ]; 
   const audioFilesEnglish = [
-    { fileName: EngTVCHershey, description: "Eng TVC Hershey" },
-    { fileName: Engkidcartoon, description: "Eng Kid Cartoon" },
-    { fileName: EngkidAdSweetypotamus, description: "Eng Kid Ad Cartoon" },
-    { fileName: EngTVCslow, description: "Eng TVC Calm" },
-    { fileName: Enggamerole, description: "Eng Kid Game role" },
-    { fileName: Enggamead, description: "Eng Game Ad" },
-    { fileName: EngExplainer, description: "Eng Explainer" },
-  ];
+    { fileName: Eng_DigitalAd_RunaChand, description: "Eng Digital Ad" },
+    { fileName: Eng_KidGameAdv_RunaChand, description: "Eng KidGame Ad" },
+    { fileName: Eng_KidGameRole_RunaChand, description: "Eng KidGame Role" },
+    { fileName: Eng_SeriousVoice_RunaChand, description: "Eng Promo Serious Voice" },
+    { fileName: Eng_TVC_Hershey_RunaChand, description: "Eng TVC Hershey" },
+    { fileName: Eng_TVC_SlowCalm_RunaChand, description: "Eng TVC SlowCalm" },
+    { fileName: English_KidBoy_Conversational, description: "Eng Kid Conversational" },
+   ];
   const audioFilesOdia = [
-    { fileName: Oriyacommercial, description: "Oriya commercial" },
-    { fileName: OriyaExplainer, description: "Oriya Explainer" },
-    { fileName: OriyaDocumentary, description: "Oriya Documentary" },
-    { fileName: OriyaKidvoice, description: "Oriya Kid voice" },
-    { fileName: OriyaIVR, description: "Oriya IVR" },
-    { fileName: OriyaSM, description: "Oriya Short Movie" },
+    { fileName: Oriya_Commercial_RunaChand, description: "Oriya commercial" },
+    { fileName: Oriya_Documentary_RunaChand, description: "Oriya Documentary" },
+    { fileName: Oriya_Explainer_RunaChand, description: "Oriya Explainer" },
+    { fileName: Oriya_KidVoiceSample_RunaChand, description: "Oriya Kid Voice" },
   ];
 
 
