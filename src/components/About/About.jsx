@@ -42,6 +42,23 @@ const About = () => {
         <div style={{ fontWeight: '300', color: 'white', padding: '20px', textAlign: 'justify' }}>
         With a robust portfolio boasting over 500 successful projects and delighted clients across 13 countries worldwide, I offer a wealth of experience as a seasoned voice artist. Take a moment to browse my profile, and don't hesitate to contact me if you'd like to enlist my voice for your upcoming project.
         </div>
+        <div className='socialMediaButtonGroup'>
+          <a target='_blank' href={instagramLink} rel="noreferrer">
+            <div className='socialMediaButton' ><img alt='insta' src={InstaLogo} /></div>
+          </a>
+          <a target='_blank' href={facebookLink} rel="noreferrer">
+            <div className='socialMediaButton' ><img alt='fb' src={FbLogo} /></div>
+          </a>
+          <a target='_blank' href={youtubeLink} rel="noreferrer">
+            <div className='socialMediaButton' ><img alt='yt' src={YTLogo} /></div>
+          </a>
+          <a target='_blank' href={fiverrLink} rel="noreferrer">
+            <div className='socialMediaButton' ><img alt='fiverr' style={{ marginRight: '10px' }} src={FiverrLogo} /></div>
+          </a>
+          <a target='_blank' href={linkedinLink} rel="noreferrer">
+            <div className='socialMediaButton' ><img alt='linkedin' src={LinkedInLogo} /></div>
+          </a>
+        </div>
       </div>
       <div className='rightSideDesktopView'>
         <Samples />

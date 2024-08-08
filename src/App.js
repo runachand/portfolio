@@ -9,11 +9,25 @@ import Testimonials from './components/Testimonials';
 import micImg from './icons/micMobile.jpg'
 import Samples from './components/Samples';
 
+import InstaLogo from './icons/Instagram-Logo.wine.svg';
+import LinkedInLogo from './icons/LinkedIn-Icon-Logo.wine.svg';
+import FbLogo from './icons/Facebook-f_Logo-White-Logo.wine.svg';
+import YTLogo from './icons/YouTube-Icon-Full-Color-Logo.wine.svg';
+import FiverrLogo from './icons/fiverr-1.svg';
+
+import {
+  instagramLink,
+  facebookLink,
+  youtubeLink,
+  linkedinLink,
+  fiverrLink
+} from './constants';
+
 const App = () => {
   const [currentTab, setCurrentTab] = useState('About');
 
   return (
-    <div className="App" style={{backgroundImage: `url(${micImg})`, backgroundPosition: 'right'}}>
+    <div className="App" style={{ backgroundImage: `url(${micImg})`, backgroundPosition: 'right' }}>
       <div className='header'>
         <div className='headerRow'>
           <div
@@ -26,13 +40,13 @@ const App = () => {
             className='headerItem headerItemMiddle'
             style={{ backgroundColor: currentTab === 'Work' ? 'purple' : '', color: 'white' }}
             onClick={() => setCurrentTab('Work')}
-            >Work
+          >Work
           </div>
           <div
             className='headerItem'
             style={{ backgroundColor: currentTab === 'Clients' ? 'purple' : '', color: 'white' }}
             onClick={() => setCurrentTab('Clients')}
-            >Clients
+          >Clients
           </div>
         </div>
         <div className='headerRow'>
@@ -40,17 +54,17 @@ const App = () => {
             className='headerItem'
             style={{ backgroundColor: currentTab === 'Testimonials' ? 'purple' : '', color: 'white' }}
             onClick={() => setCurrentTab('Testimonials')}>
-          Testimonials</div>
+            Testimonials</div>
           <div
             className='headerItem headerItemMiddle'
-            style={{ backgroundColor: currentTab === 'Sample' ? 'purple' : '', color:  'white' }}
+            style={{ backgroundColor: currentTab === 'Sample' ? 'purple' : '', color: 'white' }}
             onClick={() => setCurrentTab('Sample')}>
-          Sample</div>
+            Sample</div>
           <div
             className='headerItem'
-            style={{ backgroundColor: currentTab === 'Contact' ? 'purple' : '', color:  'white' }}
+            style={{ backgroundColor: currentTab === 'Contact' ? 'purple' : '', color: 'white' }}
             onClick={() => setCurrentTab('Contact')}>
-          Contact Me</div>
+            Contact Me</div>
         </div>
       </div>
       <div className='body'>
@@ -61,8 +75,25 @@ const App = () => {
         {currentTab === 'Sample' && <Fragment><Samples /></Fragment>}
         {currentTab === 'Contact' &&
           <Fragment>
+            <div className='socialMediaButtonGroup'>
+              <a target='_blank' href={instagramLink} rel="noreferrer">
+                <div className='socialMediaButton' ><img alt='insta' src={InstaLogo} /></div>
+              </a>
+              <a target='_blank' href={facebookLink} rel="noreferrer">
+                <div className='socialMediaButton' ><img alt='fb' src={FbLogo} /></div>
+              </a>
+              <a target='_blank' href={youtubeLink} rel="noreferrer">
+                <div className='socialMediaButton' ><img alt='yt' src={YTLogo} /></div>
+              </a>
+              <a target='_blank' href={fiverrLink} rel="noreferrer">
+                <div className='socialMediaButton' ><img alt='fiverr' style={{ marginRight: '10px' }} src={FiverrLogo} /></div>
+              </a>
+              <a target='_blank' href={linkedinLink} rel="noreferrer">
+                <div className='socialMediaButton' ><img alt='linkedin' src={LinkedInLogo} /></div>
+              </a>
+            </div>
             <div className='audioContainer' style={{ textAlign: 'center' }}>
-              <br/>
+              <br />
               <div style={{
                 fontSize: '24px', margin: '20px 30px', color: 'white'
               }}>Looking for voice artist for your next project?</div>
