@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bff4a045.css",
-    "main.js": "/portfolio/static/js/main.fcbccbba.js",
+    "main.js": "/portfolio/static/js/main.d1061cf3.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/OriyaSM_Voice+BGM.mp3": "/portfolio/static/media/OriyaSM_Voice+BGM.2f5985e40a24aa5c1ae5.mp3",
+    "static/media/Eng_SeriousVoice_RunaChand.wav": "/portfolio/static/media/Eng_SeriousVoice_RunaChand.85f59eccaf7a9d4aafb2.wav",
+    "static/media/English_KidBoy_Conversational.wav": "/portfolio/static/media/English_KidBoy_Conversational.a697c72a90b94dc5cc7f.wav",
+    "static/media/Hindi_Ad_Licious_RunaChand.wav": "/portfolio/static/media/Hindi_Ad_Licious_RunaChand.3c5cdc5fa5767adb88a1.wav",
+    "static/media/Eng_DigitalAd_RunaChand.wav": "/portfolio/static/media/Eng_DigitalAd_RunaChand.bb1896fdb48e73933f52.wav",
+    "static/media/Eng_KidGameRole_RunaChand.wav": "/portfolio/static/media/Eng_KidGameRole_RunaChand.c56fcea7c13d004fe66d.wav",
     "static/media/Oriya_Explainer_RunaChand.mp3": "/portfolio/static/media/Oriya_Explainer_RunaChand.9ec0b9f6f02e4cd0f183.mp3",
     "static/media/Eng_TVC_Hershey_RunaChand.mp3": "/portfolio/static/media/Eng_TVC_Hershey_RunaChand.09a2ec84b6f4e38ce299.mp3",
-    "static/media/Eng_KidGameRole_RunaChand.mp3": "/portfolio/static/media/Eng_KidGameRole_RunaChand.606ea252ffac56f80328.mp3",
-    "static/media/Hindi_VoiceAssistant_RunaChand.mp3": "/portfolio/static/media/Hindi_VoiceAssistant_RunaChand.8b600e7529fab8304122.mp3",
     "static/media/Eng_TVC_SlowCalm_RunaChand.mp3": "/portfolio/static/media/Eng_TVC_SlowCalm_RunaChand.cc10484ebbb6f6f2c305.mp3",
-    "static/media/Eng_KidAndCartoon_RunaChand.mp3": "/portfolio/static/media/Eng_KidAndCartoon_RunaChand.f041d25c4e5a0e409377.mp3",
     "static/media/Hindi_Emotional_RunaChand.mp3": "/portfolio/static/media/Hindi_Emotional_RunaChand.e16531ae5aefb420b506.mp3",
-    "static/media/Eng_Explainer_RunaChand.mp3": "/portfolio/static/media/Eng_Explainer_RunaChand.7242745706b01d2371a9.mp3",
     "static/media/Hindi_TVC_SlowCalm_RunaChand.mp3": "/portfolio/static/media/Hindi_TVC_SlowCalm_RunaChand.abd3e7df9f06d3debbec.mp3",
-    "static/media/Eng_KidAd_SweetyPotamus.mp3": "/portfolio/static/media/Eng_KidAd_SweetyPotamus.9a8cf50baea5a86af735.mp3",
-    "static/media/Hindi_KidAndCartoon_RunaChand.mp3": "/portfolio/static/media/Hindi_KidAndCartoon_RunaChand.7d5a804c21b3e5f1390a.mp3",
+    "static/media/Hindi_DigitalAd_RunaChand.mp3": "/portfolio/static/media/Hindi_DigitalAd_RunaChand.db03a75770ebbe3420b3.mp3",
+    "static/media/Hindi_KidConversational_RunaChand.mp3": "/portfolio/static/media/Hindi_KidConversational_RunaChand.5ef8beb18eec1bbc1fea.mp3",
     "static/media/Eng_KidGameAdv_RunaChand.mp3": "/portfolio/static/media/Eng_KidGameAdv_RunaChand.81f9e63f313ca6447f82.mp3",
-    "static/media/Oriya_IVR_RunaChand.mp3": "/portfolio/static/media/Oriya_IVR_RunaChand.2a9969722f621840c5fb.mp3",
+    "static/media/Hindi_kidVoice_Bobo_RunaChand.mp3": "/portfolio/static/media/Hindi_kidVoice_Bobo_RunaChand.961d302194ac00c0ab6c.mp3",
     "static/media/11.png": "/portfolio/static/media/11.73ef242fb13328a02ee2.png",
     "static/media/micMobile.jpg": "/portfolio/static/media/micMobile.bcff15b7dba047ef5498.jpg",
     "static/media/Oriya_KidVoiceSample_RunaChand.mp3": "/portfolio/static/media/Oriya_KidVoiceSample_RunaChand.b30a24de962e08e32a46.mp3",
@@ -45,11 +45,11 @@
     "static/media/keyboard_double_arrow_left_black_24dp.svg": "/portfolio/static/media/keyboard_double_arrow_left_black_24dp.6e9f54101395fa1838a66d50eefedb00.svg",
     "static/media/keyboard_double_arrow_right_black_24dp.svg": "/portfolio/static/media/keyboard_double_arrow_right_black_24dp.982242549acff1474ffa8e95dbdbfb2d.svg",
     "main.bff4a045.css.map": "/portfolio/static/css/main.bff4a045.css.map",
-    "main.fcbccbba.js.map": "/portfolio/static/js/main.fcbccbba.js.map",
+    "main.d1061cf3.js.map": "/portfolio/static/js/main.d1061cf3.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bff4a045.css",
-    "static/js/main.fcbccbba.js"
+    "static/js/main.d1061cf3.js"
   ]
 }
